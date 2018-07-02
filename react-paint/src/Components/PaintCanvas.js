@@ -28,7 +28,7 @@ class PaintCanvas extends Component {
 
     draw(){
         let squares = [];
-        for(let i=0; i< 4998;i++){
+        for(let i=0; i< 5202;i++){
             squares.push(
                 <Square selectedColor={this.state.selectedColor} 
                 isPainting={this.state.isPainting}/>
